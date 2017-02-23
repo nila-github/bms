@@ -1,0 +1,262 @@
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.error {
+  color: #FF0000;
+}
+
+.message {
+
+}
+
+body {
+    color: #666666;
+    background-color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #CCCCCC;
+    padding: 15px 0 15px 10px;
+}
+
+header span {
+    padding-left: 5px;
+}
+
+.logo {
+    width: 70px;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: #cccccc;
+    text-align: center;
+    color: #666666;
+    padding: 10px;
+/*    position: absolute;
+    bottom: 0; */
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(36, 124, 151);
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+nav li {
+    float: left;
+}
+
+nav li>a {
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 11px 15px;
+    margin-top: 5px;
+}
+
+nav li>a.active,
+nav li>a:hover {
+    color: #666666;
+    background-color: #EEEEEE;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.page-content {
+  padding: 20px;
+  min-height: 600px;
+}
+
+.message-text-inline {
+    padding-top: 7px;
+}
+
+.highcharts-background {
+    background-color: #F6F6F6;
+}
+
+
+/*Spinning*/
+
+.glyphicon-refresh-animate {
+    -animation: spin 1s infinite linear;
+    -ms-animation: spin 1s infinite linear;
+    -webkit-animation: spinw 1s infinite linear;
+    -moz-animation: spinm 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spinw {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinm {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+
+/*Spinning*/
+
+.glyphicon {
+    font-size: 16px;
+}
+
+.glyphicon-exclamation-sign {
+    color: #FF0000;
+}
+
+.glyphicon-ok {
+    color: #42A948;
+}
+
+.ng-valid[required], .ng-valid.required {
+    border-left: 5px solid #42A948;
+}
+
+.ng-invalid:not(form) {
+    border-left: 5px solid #a94442;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-inverse .navbar-brand {
+    background: url('../img/bg-month-picker.png') no-repeat 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #eee;
+    padding-left: 50px;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+.navbar-inverse {
+  border-radius: 0;
+}
+
+.eqx-tab {
+
+}
+
+.table {
+    width: 95%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 5px;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.table>thead>tr:first-child>td:first-child {
+    border-top-left-radius: 5px;
+}
+
+.table>thead>tr:first-child>td:last-child {
+    border-top-right-radius: 5px;
+}
+
+.table>tbody>tr:last-child>td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.table>tbody>tr:last-child>td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.table tr td.table-header {
+    background-color: #167F92;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f8f8f8;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #d1dadd;
+}
+
+.table-bordered {
+    /*border: none;*/
+}
+
+.table-bordered>tbody>tr>td {
+    /*border: none;*/
+}
+
+.table-container {
+    margin-top: 30px;
+}
+
+.table-container h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.table-container th, .table-container td {
+    font-size: 12px !important;
+}
+
+.tab-container ul {
+    margin-bottom: 5px;
+}
+
+.eq-form .row{
+  margin-bottom: 20px;
+}

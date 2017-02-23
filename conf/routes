@@ -1,0 +1,10 @@
+# Static Files
+GET     /                                                       controllers.Application.index()
+GET     /src/app/*file                                          controllers.Assets.at(path="/public/src/app", file)
+GET     /src/css/*file                                          controllers.Assets.at(path="/public/src/css", file)
+GET     /src/img/*file                                          controllers.Assets.at(path="/public/src/img", file)
+GET     /src/js/*file                                           controllers.Assets.at(path="/public/src/js", file)
+GET     /src/lib/*file                                          controllers.Assets.at(path="/public/src/lib", file)
+GET     /node_modules/*file                                     controllers.Assets.at(path="/public/node_modules", file)
+GET     /static/*file                                           controllers.Assets.at(path="/public", file)
+

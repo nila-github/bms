@@ -1,0 +1,1 @@
+{"version":3,"file":"customer-analysis.component.js","sourceRoot":"","sources":["customer-analysis.component.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAAkD;AAiBlD,IAAa,yBAAyB;IAAtC;IAIA,CAAC;IAAD,gCAAC;AAAD,CAAC,AAJD,IAIC;AAJY,yBAAyB;IALrC,gBAAS,CAAC;QACP,QAAQ,EAAE,MAAM,CAAC,EAAE;QACnB,QAAQ,EAAE,mBAAmB;QAC7B,WAAW,EAAE,EAAE;KAClB,CAAC;GACW,yBAAyB,CAIrC;AAJY,8DAAyB"}
